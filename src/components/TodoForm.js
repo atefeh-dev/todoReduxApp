@@ -36,8 +36,10 @@ const TodoForm = props => {
             <div className="ui action input">
                 <input 
                     style={{
-                      margin: 'auto',
-                     display : 'block'
+                      marginLeft:'auto',
+                      marginRight : 'auto',
+                      width: '16em'
+
                     }}
                     ref = {inputel}
                     type="text"
