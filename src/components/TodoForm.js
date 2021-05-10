@@ -35,6 +35,10 @@ const TodoForm = props => {
             <h6 style={{marginTop:'-8px'}}> {new Date().toLocaleDateString()}</h6>
             <div className="ui action input">
                 <input 
+                    style={{
+                      margin: 'auto',
+                     display : 'block'
+                    }}
                     ref = {inputel}
                     type="text"
                     onChange={(e)=>setTask(e.target.value)}
